@@ -4,12 +4,6 @@ $dir='2017/april/';
 // Sort in ascending order - this is default
 $a = scandir($dir);
 
-// Sort in descending order
-$b = scandir($dir,1);
-
-//print_r($a);
-//print_r($b);
-
 //rename("2017/april/bunny.txt", "2017/april/bunny2.txt");
 
 foreach ($a as $name_of_file) {
